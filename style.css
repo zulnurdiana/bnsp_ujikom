@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.judul {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+table {
+  margin-top: 20px;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+td {
+  padding: 0px;
+  height: 50px;
+  text-align: center;
+}
+
+th {
+  background-color: aquamarine;
+  font-weight: bold;
+  height: 35px;
+  font-size: 17px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.btn-success {
+  padding: 8px 10px 8px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 13px;
+  font-style: italic;
+  color: white;
+}
+
+.btn-danger {
+  padding: 8px 10px 8px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: red;
+  font-weight: bold;
+  font-size: 13px;
+  font-style: italic;
+  color: white;
+}
+
+.btn-info {
+  padding: 8px 10px 8px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: green;
+  font-weight: bold;
+  font-size: 13px;
+  font-style: italic;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+select,
+hr {
+  border: 2px solid;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.bingkai {
+  margin: 35px 0;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.caption-bingkai {
+  margin: 6px 0;
+}
+
+.search-form {
+  float: right; /* Form pencarian akan berada di sebelah kanan */
+}
+
+.search-form input[type="text"] {
+  width: 300px;
+}
+.search-form input[type="submit"] {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-form input[type="submit"] {
+  background-color: aquamarine;
+  color: black; /* Mengubah warna teks tombol */
+}
