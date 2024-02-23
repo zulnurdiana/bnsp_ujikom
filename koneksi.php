@@ -3,7 +3,7 @@
   $host = "localhost";
   $username = "root";
   $password = "";
-  $db_nama = "unibookstore";
+  $db_nama = "data";
 
   $db = mysqli_connect($host,$username,$password,$db_nama);
 
